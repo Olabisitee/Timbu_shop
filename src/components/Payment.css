@@ -1,0 +1,17 @@
+.payment-page {
+  padding: 20px;
+}
+.payment-method {
+  margin-bottom: 20px;
+}
+.credit-card-details {
+  margin-top: 20px;
+}
+.pay-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

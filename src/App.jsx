@@ -2,10 +2,16 @@
 import React, { useState } from "react";
 import ProductDetails from "./components/ProductDetails";
 import Reviews from "./components/Reviews";
+import Checkout from "./components/Checkout";
 import "./App.css";
 
 const App = () => {
   const [activeTab, setActiveTab] = useState("details");
+  const [page, setPage] = useState("home");
+
+  if (page === "checkout") {
+    return <Checkout setPage={setPage} />;
+  }
 
   return (
     <div className="container">
@@ -20,7 +26,12 @@ const App = () => {
             <span>1</span>
             <button>+</button>
           </div>
-          <button className="checkout-button">Checkout here</button>
+          <button
+            className="checkout-button"
+            onClick={() => setPage("checkout")}
+          >
+            Checkout here
+          </button>
         </div>
         <div className="right-column">
           <div className="tabs">
