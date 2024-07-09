@@ -35,21 +35,21 @@ body {
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
-  margin-left: 80px;
+  margin-left: 50px;
   color: #000000;
 }
 .product-info p {
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
-  margin-left: 80px;
+  margin-left: 50px;
   color: #000000;
 }
 .quantity-control {
   font-family: Inter;
   font-size: 20px;
   font-weight: 600;
-  margin-left: 80px;
+  margin-left: 50px;
   color: #000000;
 }
 .label {
@@ -96,5 +96,5 @@ input {
   width: 120px;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 120px;
+  margin-left: 100px;
 }

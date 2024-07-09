@@ -13,7 +13,7 @@ h2 {
   display: flex;
   align-items: center;
 }
-.label {
+#label {
   font-family: Inter;
   font-size: 24px;
   font-weight: 600;

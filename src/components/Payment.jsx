@@ -25,11 +25,11 @@ const Payment = () => {
       <div className="credit-card-details">
         <h2>Credit card details</h2>
 
-        <label className="label">Card number</label>
+        <label id="label">Card number</label>
         <input className="place" type="text" />
-        <label className="label">Expiring date</label>
+        <label id="label">Expiring date</label>
         <input className="place" type="email" />
-        <label className="label">CVV</label>
+        <label id="label">CVV</label>
         <input className="place" type="tel" />
 
         <button
