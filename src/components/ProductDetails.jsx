@@ -49,6 +49,7 @@
 // export default ProductDetails;
 // ProductDetails.js
 import React from "react";
+import "./ProductDetails.css";
 
 const ProductDetails = () => (
   <div className="description">

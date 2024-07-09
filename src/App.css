@@ -19,106 +19,96 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 80%;
 }
-
 .left-column,
 .right-column {
   flex: 1;
   padding: 5px;
 }
-
 .left-column img {
   width: 100%;
   max-width: 300px;
   border-radius: 8px;
 }
 .left-column {
-  /* padding-left: 10px; */
   margin-left: 50px;
 }
 .right-column {
-  /* padding-right: 30px; */
   margin-right: 20px;
 }
-
 .left-column h2 {
-  margin: 10px 0;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 80px;
+  color: #000000;
 }
-
 .left-column p {
-  margin: 5px 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 80px;
+  color: #000000;
 }
-
-.quantity-control {
+.button-control {
   display: flex;
-  align-items: center;
-  margin-top: 10px;
+  margin-left: 80px;
+  color: #000000;
+  font-weight: 600;
 }
-
-.quantity-control button {
+.button-control button {
   background: none;
   border: 1px solid #000;
   padding: 5px 10px;
   cursor: pointer;
 }
-
-.quantity-control span {
-  margin: 0 10px;
-}
-
 .checkout-button {
-  background: blue;
-  color: white;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8f99fb;
   padding: 10px;
   margin-top: 10px;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
+  margin-left: 80px;
 }
-
 .right-column {
   display: flex;
   flex-direction: column;
 }
-
 .tabs {
   display: flex;
   margin-bottom: 10px;
 }
-
 .tab {
   background: none;
   border: none;
   padding: 10px;
   cursor: pointer;
 }
-
 .tab.active {
   background-color: red;
   color: white;
   border-radius: 4px;
 }
-
 .description,
 .reviews {
   text-align: left;
 }
-
 .description h3,
 .reviews .review-item .reviewer {
   margin-bottom: 5px;
 }
-
 .description p,
 .description ul,
 .reviews p {
   margin-top: 0;
 }
-
 .description ul {
   list-style-type: none;
   padding-left: 0;
 }
-
 .reviews .review-item {
   margin-bottom: 15px;
 }

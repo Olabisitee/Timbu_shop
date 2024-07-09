@@ -18,13 +18,21 @@ const App = () => {
       <div className="product-details">
         <div className="left-column">
           <img src="\images\IMG_7038 1.png" alt="Resolute Tee Shirt" />
-          <h2>Resolute Tee Shirt</h2>
-          <p>₦25,000</p>
-          <p>Size: M Color: Pink</p>
-          <div className="quantity-control">
-            <button>-</button>
-            <span>1</span>
-            <button>+</button>
+          <h2>
+            <strong>Resolute Tee Shirt</strong>
+          </h2>
+          <p>
+            <strong>₦25,000</strong>
+          </p>
+          <p>
+            <strong>Size: M Color: Pink </strong>
+          </p>
+          <div className="button-control">
+            <strong>Quantity: </strong>
+            <span> - </span>
+            <span> 1 </span>
+            <span> + </span>
+            <span> 0 </span>
           </div>
           <button
             className="checkout-button"

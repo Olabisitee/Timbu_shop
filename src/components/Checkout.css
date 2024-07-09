@@ -1,23 +1,100 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
 .checkout-page {
   display: flex;
-  padding: 20px;
+  padding: 10px;
+  background-color: #fff5dc;
 }
 .product-info {
   flex: 1;
-  padding: 20px;
+  padding: 80px 40px 80px;
 }
 .shipping-info {
   flex: 2;
-  padding: 20px;
+  padding: 80px 20px;
+}
+.shipping-info h2 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+}
+.product-info img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+.product-info h2 {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 80px;
+  color: #000000;
+}
+.product-info p {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 80px;
+  color: #000000;
+}
+.quantity-control {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 80px;
+  color: #000000;
+}
+.label {
+  display: block;
+  margin-bottom: 2px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  text-align: left;
+}
+input {
+  display: block;
+  margin-bottom: 5px;
+  padding: 8px;
+  width: 60%;
+  background: #ffffff;
 }
 .order-summary {
-  margin-top: 20px;
+  flex: 1;
+}
+.sum {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+.ship {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
+}
+.total {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  color: #000000;
 }
 .pay-button {
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 10px 20px;
   background-color: #6c63ff;
-  color: white;
-  border: none;
+  width: 120px;
+  border-radius: 20px;
   cursor: pointer;
+  margin-left: 120px;
 }

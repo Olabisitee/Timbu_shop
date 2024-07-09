@@ -1,17 +1,40 @@
 .payment-page {
   padding: 20px;
+  background-color: #f5f5dc;
+}
+h2 {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 50px;
+  color: #000000;
 }
 .payment-method {
-  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
-.credit-card-details {
-  margin-top: 20px;
+.label {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 30px;
 }
-.pay-button {
+.place {
+  margin-left: 30px;
+  display: block;
+  margin-bottom: 5px;
+  padding: 8px;
+  background: #ffffff;
+  width: 30%;
+}
+.success-button {
+  width: 200px;
+  border-radius: 10px;
   margin-top: 10px;
   padding: 10px 20px;
   background-color: #6c63ff;
-  color: white;
-  border: none;
   cursor: pointer;
+  margin-left: 120px;
 }
