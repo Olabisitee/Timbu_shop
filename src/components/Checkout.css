@@ -44,6 +44,7 @@ body {
   font-weight: 600;
   margin-left: 50px;
   color: #000000;
+  text-align: left;
 }
 .quantity-control {
   font-family: Inter;
@@ -76,18 +77,21 @@ input {
   font-size: 20px;
   font-weight: 600;
   color: #000000;
+  text-align: left;
 }
 .ship {
   font-family: Montserrat;
   font-size: 12px;
   font-weight: 600;
   color: #000000;
+  text-align: left;
 }
 .total {
   font-family: Montserrat;
   font-size: 12px;
   font-weight: 600;
   color: #000000;
+  text-align: start;
 }
 .pay-button {
   margin-top: 5px;
@@ -97,4 +101,26 @@ input {
   border-radius: 20px;
   cursor: pointer;
   margin-left: 100px;
+}
+
+@media (max-width: 768px) {
+  .checkout-page {
+    flex-direction: column; /* Stack columns vertically */
+    padding: 10px;
+  }
+  .product-info,
+  .shipping-info {
+    padding: 20px; /* Adjust padding for mobile */
+    width: 100%; /* Ensure full width */
+  }
+  .product-info {
+    order: 1; /* Ensure product info appears first */
+  }
+  .shipping-info {
+    order: 2; /* Ensure shipping info appears second */
+  }
+  .pay-button {
+    margin-left: 20px; /* Center button for mobile */
+    width: 40%; /* Full width button */
+  }
 }

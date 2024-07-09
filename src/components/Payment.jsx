@@ -20,7 +20,7 @@ const Payment = () => {
           checked
           readOnly
         />
-        Credit card
+        <label> Credit card </label>
       </div>
       <div className="credit-card-details">
         <h2>Credit card details</h2>

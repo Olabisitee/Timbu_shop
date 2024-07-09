@@ -1,6 +1,6 @@
 .payment-page {
   padding: 20px;
-  background-color: #f5f5dc;
+  background-color: #fdfad4;
 }
 h2 {
   font-family: Inter;
@@ -12,6 +12,7 @@ h2 {
 .payment-method {
   display: flex;
   align-items: center;
+  margin-left: 50px;
 }
 #label {
   font-family: Inter;
@@ -37,4 +38,34 @@ h2 {
   background-color: #6c63ff;
   cursor: pointer;
   margin-left: 120px;
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  .payment-method {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  }
+  .payment-method input {
+    margin-right: 10px;
+  }
+  #label {
+    margin-left: 30px;
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .place {
+    margin-left: 20px;
+    width: 80%;
+  }
+  .success-button {
+    margin-left: 60px;
+    width: 50%;
+    text-align: center;
+  }
 }
