@@ -1,8 +1,8 @@
-// App.js
 import React, { useState } from "react";
 import ProductDetails from "./components/ProductDetails";
 import Reviews from "./components/Reviews";
 import Checkout from "./components/Checkout";
+import ProductListing from "./components/ProductListing";
 import "./App.css";
 
 const App = () => {
@@ -11,6 +11,9 @@ const App = () => {
 
   if (page === "checkout") {
     return <Checkout setPage={setPage} />;
+  }
+  if (page === "productList") {
+    return <ProductListing setPage={setPage} />;
   }
 
   return (
@@ -39,6 +42,9 @@ const App = () => {
             onClick={() => setPage("checkout")}
           >
             Checkout here
+          </button>
+          <button className="prolist" onClick={() => setPage("productList")}>
+            Product List
           </button>
         </div>
         <div className="right-column">

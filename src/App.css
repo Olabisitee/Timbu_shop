@@ -74,6 +74,18 @@ body {
   cursor: pointer;
   margin-left: 80px;
 }
+.prolist {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  color: #8f99fb;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+}
 .right-column {
   display: flex;
   flex-direction: column;
